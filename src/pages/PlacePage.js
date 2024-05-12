@@ -29,7 +29,7 @@ export default function PlacePage() {
                </div>
               {place?.photos?.length > 0 && place.photos.map(photo => (
                 <div>
-                   <img src={"http://localhost:4000/uploads/"+photo}></img>
+                   <img src={"https://hotelapp-api.onrender.com/uploads/"+photo}></img>
                 </div>
                ))}
             </div>
@@ -46,19 +46,19 @@ export default function PlacePage() {
             <div>
              {place.photos?.[0] && (
                 <div>
-                <img className="aspect-square object-cover"src={'http://localhost:4000/uploads/'+place.photos[0]} alt=''/>
+                <img className="aspect-square object-cover"src={'https://hotelapp-api.onrender.com/uploads/'+place.photos[0]} alt=''/>
                 </div>
              )}
                 
             </div>
                 <div className="grid">
                 {place.photos?.[1] && (
-                <img className="aspect-square object-cover" src={'http://localhost:4000/uploads/'+place.photos[1]} alt=''/>
+                <img className="aspect-square object-cover" src={'https://hotelapp-api.onrender.com/uploads/'+place.photos[1]} alt=''/>
                 )}
                 </div>
             <div className="">
                 {place.photos?.[2] && (
-                <img className="aspect-square object-cover" src={'http://localhost:4000/uploads/'+place.photos[2]} alt=''/>
+                <img className="aspect-square object-cover" src={'https://hotelapp-api.onrender.com/uploads/'+place.photos[2]} alt=''/>
              )}
             </div>
  

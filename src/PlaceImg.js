@@ -7,7 +7,7 @@ export default function PlaceImg({place,index=0,className=null}) {
     }
     return (
 
-        <img className={className} src={'http://localhost:4000/uploads/'+place.photos[index]} alt=''></img>
+        <img className={className} src={'https://hotelapp-api.onrender.com/uploads/'+place.photos[index]} alt=''></img>
 
     )
 }
